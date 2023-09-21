@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013391E22ABC665000DB39CA /* yunus_tamamdir.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 013391E12ABC665000DB39CA /* yunus_tamamdir.mp3 */; };
+		013391E42ABC674E00DB39CA /* sila_yabanci.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 013391E32ABC674E00DB39CA /* sila_yabanci.mp3 */; };
 		016CAEF92ABB90A00052B878 /* CoverMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016CAEF82ABB90A00052B878 /* CoverMusicApp.swift */; };
 		016CAEFB2ABB90A00052B878 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016CAEFA2ABB90A00052B878 /* ContentView.swift */; };
 		016CAEFD2ABB90A70052B878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016CAEFC2ABB90A70052B878 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		013391E12ABC665000DB39CA /* yunus_tamamdir.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yunus_tamamdir.mp3; sourceTree = "<group>"; };
+		013391E32ABC674E00DB39CA /* sila_yabanci.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sila_yabanci.mp3; sourceTree = "<group>"; };
 		016CAEF52ABB90A00052B878 /* CoverMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoverMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		016CAEF82ABB90A00052B878 /* CoverMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverMusicApp.swift; sourceTree = "<group>"; };
 		016CAEFA2ABB90A00052B878 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		016CAEF72ABB90A00052B878 /* CoverMusic */ = {
 			isa = PBXGroup;
 			children = (
+				013391E32ABC674E00DB39CA /* sila_yabanci.mp3 */,
+				013391E12ABC665000DB39CA /* yunus_tamamdir.mp3 */,
 				016CAEF82ABB90A00052B878 /* CoverMusicApp.swift */,
 				016CAEFA2ABB90A00052B878 /* ContentView.swift */,
 				016CAF0A2ABB97EC0052B878 /* View */,
@@ -139,6 +145,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013391E22ABC665000DB39CA /* yunus_tamamdir.mp3 in Resources */,
+				013391E42ABC674E00DB39CA /* sila_yabanci.mp3 in Resources */,
 				016CAF002ABB90A70052B878 /* Preview Assets.xcassets in Resources */,
 				016CAEFD2ABB90A70052B878 /* Assets.xcassets in Resources */,
 			);

@@ -13,10 +13,12 @@ struct ContentView: View {
             TabView{
                 
                 RecordingAudioView().tabItem{
-                    Text("Recording")
+                  Label("Recording",systemImage: "mic.square")
+                   
                 }
                 ListeningAudioView().tabItem{
-                    Text("Listening")
+                    Label("Listening",systemImage: "headphones")
+                   
                 }
                 
             }

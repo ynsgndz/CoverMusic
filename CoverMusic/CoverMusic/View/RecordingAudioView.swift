@@ -17,7 +17,7 @@ struct RecordingAudioView: View {
         VStack{
             Text("Record audio").font(.largeTitle).padding(50)
             Spacer()
-            Home().preferredColorScheme(.dark)
+            Home()//.preferredColorScheme(.dark)
             Spacer()
         }
       
